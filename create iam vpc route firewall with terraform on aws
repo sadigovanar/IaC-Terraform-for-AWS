@@ -52,25 +52,7 @@ value = aws_vpc.development
 
 bu sadce yazdiqimiz outputda gorsedir
 
-################################## **Configi dəyişmədən resource silmək CLİ ilə #####**
 
-terraform destroy -target aws_subnet.dev-subnet-1
-
-terraform apply —- configi qebul etmek 
-
-terraform init —service ishe salmaq
-
-terraform plan — yazilmish configin daxiline baxmaq
-
-terraform apply -auto-aprove — loglari gostermeden apply etmek ve senden sorushmadan apply edir
-
-terraform destroy — her sheyi silmek 
-
-terraform state —-  subcommandlari gorsedir 
-
-terraform state list — resource haqqinda melumat
-
-terraform state show resource — yaradilan resource haqqinda melumat
 
 ########################## Variable vastesi ile config etmek ##########################
 
