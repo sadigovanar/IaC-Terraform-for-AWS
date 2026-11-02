@@ -1,0 +1,4 @@
+project           = "myapp"
+environment       = "dev"
+region            = "eu-west-3"
+ssh_allowed_cidrs = ["203.0.113.0/24"]
